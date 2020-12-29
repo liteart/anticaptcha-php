@@ -1,5 +1,7 @@
 <?php
 
+namespace AntiCaptcha;
+
 class RecaptchaV2Enterprise extends Anticaptcha implements AntiCaptchaTaskProtocol {
 
     private $websiteUrl;

@@ -1,5 +1,7 @@
 <?php
 
+namespace AntiCaptcha;
+
 class HCaptchaProxyless extends Anticaptcha implements AntiCaptchaTaskProtocol {
 
     private $websiteUrl;

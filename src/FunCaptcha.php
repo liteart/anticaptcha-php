@@ -1,5 +1,7 @@
 <?php
 
+namespace AntiCaptcha;
+
 class FunCaptcha extends Anticaptcha implements AntiCaptchaTaskProtocol {
 
     private $websiteUrl;

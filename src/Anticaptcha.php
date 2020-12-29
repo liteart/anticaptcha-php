@@ -1,5 +1,7 @@
 <?php
 
+namespace AntiCaptcha;
+
 class Anticaptcha {
 
     private $host = "api.anti-captcha.com";

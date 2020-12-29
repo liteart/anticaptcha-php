@@ -1,5 +1,7 @@
 <?php
 
+namespace AntiCaptcha;
+
 class GeeTestProxyless extends Anticaptcha implements AntiCaptchaTaskProtocol {
 
     private $websiteUrl;

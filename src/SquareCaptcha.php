@@ -1,5 +1,7 @@
 <?php
 
+namespace AntiCaptcha;
+
 class SquareCaptcha extends Anticaptcha implements AntiCaptchaTaskProtocol {
 
     private $body;
