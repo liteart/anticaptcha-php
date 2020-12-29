@@ -1,12 +1,5 @@
 <?php
 
-interface AntiCaptchaTaskProtocol {
-    
-    public function getPostData();
-    public function getTaskSolution();
-    
-}
-
 class Anticaptcha {
 
     private $host = "api.anti-captcha.com";
