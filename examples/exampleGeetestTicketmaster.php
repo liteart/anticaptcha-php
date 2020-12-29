@@ -1,8 +1,8 @@
 <?php
 
 
-include("../anticaptcha.php");
-include("../geetestproxyless.php");
+include("../Anticaptcha.php");
+include("../GeeTestProxyless.php");
 
 $api = new GeeTestProxyless();
 $api->setVerboseMode(true);

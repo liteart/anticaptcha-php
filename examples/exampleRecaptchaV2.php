@@ -1,7 +1,7 @@
 <?php
 
-include("../anticaptcha.php");
-include("../recaptchaV2.php");
+include("../Anticaptcha.php");
+include("../RecaptchaV2.php");
 
 $api = new RecaptchaV2();
 $api->setVerboseMode(true);
