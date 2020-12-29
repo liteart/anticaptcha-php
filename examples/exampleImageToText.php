@@ -1,7 +1,10 @@
 <?php
 
-include("../Anticaptcha.php");
-include("../ImageToText.php");
+use AntiCaptcha\ImageToText;
+
+
+include("../src/Anticaptcha.php");
+include("../src/ImageToText.php");
 
 $api = new ImageToText();
 $api->setVerboseMode(true);

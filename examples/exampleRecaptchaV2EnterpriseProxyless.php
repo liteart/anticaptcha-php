@@ -1,7 +1,9 @@
 <?php
 
-include("../Anticaptcha.php");
-include("../RecaptchaV2EnterpriseProxyless.php");
+use AntiCaptcha\RecaptchaV2EnterpriseProxyless;
+
+include("../src/Anticaptcha.php");
+include("../src/RecaptchaV2EnterpriseProxyless.php");
 
 $api = new RecaptchaV2EnterpriseProxyless();
 $api->setVerboseMode(true);
